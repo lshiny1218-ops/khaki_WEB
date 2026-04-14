@@ -1,0 +1,21 @@
+
+
+
+
+
+#menu_bottom_ {
+    z-index: 1000;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    position: fixed;
+    width: 1280px; /* 1280px 뷰포트 기준 적정 크기 */
+    height: 200px; /* 메뉴 내용 높이 */
+    left: 55px;
+    
+
+    top: 55px;
+    overflow: visible;
+}
+
+

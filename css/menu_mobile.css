@@ -1,0 +1,104 @@
+
+#menu_mobile {
+    box-sizing:border-box;
+    z-index: 11333;
+    margin:0;
+    padding:0;
+    position: fixed;
+    width: 840px; /* 1280px 뷰포트 기준 적정 크기 */
+    height: 200px; /* 메뉴 내용 높이 */
+    left: 50%;
+    transform: translateX(-50%);
+
+    top: 0px;
+    overflow: visible;
+}
+
+.sub_left span {
+    font-size: 30px;
+    position: absolute;
+    font-weight: 200;
+
+    
+    transform: translate(6px, -9px); /* X 오른쪽 10px, Y 위로 10px */
+
+}
+
+.sub_right_up span {
+    font-size: 26px;
+    position: fixed;
+    right: 0;
+    /* top: -15px; */
+    transform: translate(-16px, -28px); /* X 오른쪽 10px, Y 위로 10px */
+
+
+}
+
+.sub_right_under span {
+    font-size: 38px;
+    font-weight: 400;
+
+    /* font-weight: bold; */
+    position: fixed;
+    right: 0;
+    letter-spacing: -0.03em;
+
+    transform: translate(-16px, -22px); /* X 오른쪽 10px, Y 위로 10px */
+}
+
+
+.sub_bottom span {
+    font-size: 30px;
+    font-weight: 300;
+
+    /* font-weight: bold; */
+    position: fixed;
+    right: 0;
+    letter-spacing: -0.03em;
+
+    transform: translate(-11px, -0px); /* X 오른쪽 10px, Y 위로 10px */
+}
+
+
+
+.thumb span {
+    font-size: 21px;
+    font-weight: bold;
+    /* position: fixed; */
+    color: #8c8c8c;
+    text-align: center;
+
+    /* right: 0; */
+    letter-spacing: -0.03em;
+
+    /* transform: translate(-16px, -22px); X 오른쪽 10px, Y 위로 10px */
+}
+
+
+
+
+.maintext span {
+    -webkit-font-smoothing: antialiased;  크롬, 사파리
+    -moz-osx-font-smoothing: grayscale;   맥 파이어폭스
+    text-rendering: optimizeLegibility;   가독성 향상
+    text-rendering: geometricPrecision;
+
+
+
+    font-weight: 300;
+    color: #000000;
+    /* letter-spacing: -0.02em; */
+
+}
+
+
+
+img {
+    border-radius:16px !important;
+    overflow: hidden !important;
+}
+
+/* 혹시 이미지가 div 배경으로 들어가 있는 경우를 대비
+[id^="_"] { 
+    border-radius: 20px;
+} */

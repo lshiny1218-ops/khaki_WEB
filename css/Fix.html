@@ -1,0 +1,19 @@
+
+<meta name="viewport" content="width=1280">
+
+
+
+<div id="menumobile"><iframe src="menumobile.html" width="1280" height="200"></iframe></div>
+<div id="interior_1" <head><link rel="stylesheet" href="css/positionmobile.css"></head>
+
+
+#menumobile {
+    z-index: 1000;
+    position: fixed; /* absolute에서 fixed로 변경 */
+    width: 1280px;
+    height: auto; /* 고정 높이 대신 내용에 맞게 */
+        left:max(calc((100vw - 1280px)/2 + 1px), 1px);
+    top: 30px;  /* 화면 상단에서의 고정 간격 */
+    overflow: visible;
+}
+

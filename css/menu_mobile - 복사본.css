@@ -1,0 +1,44 @@
+
+#menu_mobile {
+    box-sizing:border-box;
+    z-index: 11333;
+    margin:0;
+    padding:0;
+    position: fixed;
+    width: 900px; /* 1280px 뷰포트 기준 적정 크기 */
+    height: 200px; /* 메뉴 내용 높이 */
+    left: 50%;
+    transform: translateX(-50%);
+
+    top: 0px;
+    overflow: visible;
+}
+
+
+.sub_left span {
+    font-size: 30px;
+    position: absolute;
+    top: -10px;
+
+
+}
+
+
+.sub_right_up span {
+    font-size: 26px;
+    position: absolute;
+    right: 0;
+    top: -20px;
+
+
+}
+
+
+.sub_right_under span {
+    font-size: 38px;
+    position: absolute;
+    right: 0;
+    top: -13px;
+
+
+}

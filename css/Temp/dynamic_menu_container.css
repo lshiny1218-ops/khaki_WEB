@@ -1,0 +1,29 @@
+/* 공통 컨테이너 설정 */
+#dynamic_menu_container {
+    z-index: 999;
+}
+
+/* [모바일] 메뉴 위치: 상단 중앙 고정 */
+#menu_mobile {
+    position: fixed;
+    width: 450px; /* 1280px 뷰포트 기준 적정 크기 */
+    height: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10px;
+}
+
+/* [PC] 메뉴 위치: 왼쪽 상단 고정 (기존 디자인 기준) */
+#menu_pc{
+    z-index:999;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    position:fixed;
+    width:200px;
+    height:500px;
+
+    left:max(calc((100vw - 1280px)/2 + 11px), 11px);
+    top:154px;
+    overflow:visible;
+}
